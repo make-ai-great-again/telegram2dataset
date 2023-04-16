@@ -1,4 +1,4 @@
-# Telegram chat 2 dataset for Alpaca-LoRA
+# Converting telegram chat to dataset for Alpaca-LoRA
 Revised telegram chat parser, prepares a file in Instruction format for training llama/alpaca/vicuna models,
 saves it in json and jsonl.
 
@@ -34,7 +34,7 @@ python3 telegram_export_chat_parser.py
 
 
 
-# Датасет из Телеграм-чата, для Alpaca-LoRA
+# Конвертируем телеграм-чат в датасет для Alpaca-LoRA
 Доработанный парсер чатов телеграм, подготовливает файл в Instruct формате для обучения моделей llama/alpaca/vicuna,
 сохраняет в json и jsonl.
 
