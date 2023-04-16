@@ -1,11 +1,8 @@
 # Converting telegram chat to dataset for Alpaca-LoRA
+
+### Description:
 Revised telegram chat parser, prepares a file in Instruction format for training llama/alpaca/vicuna models,
 saves it in json and jsonl.
-
-The parser takes all the messages that have replies. 
-- You can add the first message to 'instruction', or to 'input' (and set the instruction yourself)
-- You can use either pairs where the first message containing the '?' sign, or all messages.
-- 'output' is always reply.
 
 JSON structure for instruct models:
 ```
@@ -15,7 +12,14 @@ JSON structure for instruct models:
 	"output": ""
 }
 ```
-<br />
+
+The parser takes all the messages that have replies. When converting you can optionally choose:
+
+- Whether to add the first message to 'instruction' or to 'input' (and set the instruction yourself)
+- Use only pairs where the first message containing the '?' sign or all message pairs.
+- 'output' is always reply.
+
+
 ### How to use:
 1. Download this repository to your pc
 2. Install the dependencies by using
@@ -33,13 +37,10 @@ python3 telegram_export_chat_parser.py
 
 <br /><br />
 # Конвертируем телеграм-чат в датасет для Alpaca-LoRA
+
+### Описание:
 Доработанный парсер чатов телеграм, подготовливает файл в Instruct формате для обучения моделей llama/alpaca/vicuna,
 сохраняет в json и jsonl.
-
-Парсер берет все пары сообщений, на которые есть ответы. 
-— Можно добавлять первое сообщение в 'instruction', или в 'input' (а инструкцию задать самому).
-— Можно использовать только первые сообщения, содержащие знак '?' или все.
-- В 'output' помещается всегда ответ на первое сообщение.
 
 Структура json для instruct моделей:
 ```
@@ -49,7 +50,14 @@ python3 telegram_export_chat_parser.py
 	"output": ""
 }
 ```
-<br />
+
+Парсер берет все пары сообщений, на которые есть ответы. При конвертации вы задаете опционально:
+
+- Добавлять первое сообщение в 'instruction' или в 'input' (а инструкцию задать самому).
+- Использовать только первые сообщения, содержащие знак '?', или вообще все пары.
+- В 'output' помещается всегда ответ на первое сообщение.
+
+
 ### Как использовать:
 1. Скачайте данный репозиторий на ваш пк
 2. Установите зафисимости с помощью
