@@ -27,7 +27,7 @@ The parser takes all the messages that have replies. When converting you can opt
 pip install -r requirements.txt
 ```
 3. Export chats from telegram to html (embedded client function)
-4. Put the resulting folders in the same directory as this repository. You can put many at once, different files will be generated/
+4. Put the resulting folders in the same directory as this repository. You can put many at once, different files will be generated
 5. Run the program
 ```
 python3 telegram_export_chat_parser.py
