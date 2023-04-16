@@ -16,15 +16,14 @@ JSON structure for instruct models:
 }
 ```
 <br />
-
 ### How to use:
 1. Download this repository to your pc
 2. Install the dependencies by using
 ```
 pip install -r requirements.txt
 ```
-Export chats from telegram to html (embedded client function)
-4. Put the resulting folders in the same directory as this repository
+3. Export chats from telegram to html (embedded client function)
+4. Put the resulting folders in the same directory as this repository. You can put many at once, different files will be generated/
 5. Run the program
 ```
 python3 telegram_export_chat_parser.py
@@ -51,7 +50,6 @@ python3 telegram_export_chat_parser.py
 }
 ```
 <br />
-
 ### Как использовать:
 1. Скачайте данный репозиторий на ваш пк
 2. Установите зафисимости с помощью
@@ -59,7 +57,7 @@ python3 telegram_export_chat_parser.py
 pip install -r requirements.txt
 ```
 3. Экспортируйте чаты из telegram в формат html (встроенная функкция клиентов)
-4. Полученные папки положите в одну директорию с этим репозиторием
+4. Полученные папки положите в одну директорию с этим репозиторием. Можно положить сразу несколько папок, для каждой будут созданы отдельные файлы.
 5. Запустите программу
 ```
 python3 telegram_export_chat_parser.py
