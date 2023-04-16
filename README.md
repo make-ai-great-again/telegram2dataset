@@ -30,7 +30,7 @@ pip install -r requirements.txt
 4. Put the resulting folders in the same directory as this repository. You can put many at once, different files will be generated
 5. Run the program
 ```
-python3 telegram_export_chat_parser.py
+python telegram_export_chat_parser.py
 ```
 6. Follow the prompts.
 7. Wait for completion, files will be saved in the same directory
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 4. Полученные папки положите в одну директорию с этим репозиторием. Можно положить сразу несколько папок, для каждой будут созданы отдельные файлы.
 5. Запустите программу
 ```
-python3 telegram_export_chat_parser.py
+python telegram_export_chat_parser.py
 ```
 6. Следуйте подсказкам.
 7. Ожидайте завершения, файлы будут сохранены в этой же директории
